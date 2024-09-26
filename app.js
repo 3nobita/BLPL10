@@ -577,7 +577,7 @@ app.get('/api/download/clients', async (req, res) => {
 
 // Replace with your actual Account SID and Auth Token
 const accountSid = 'AC8ef2a10d58f38e03d0787107d35e7aad'; 
-const authToken = 'a33045a42ee36c2d33431955bc22c188'; 
+const authToken = '538aae9dad40a2c518be4a377e8f6dd5'; 
 const client = new twilio(accountSid, authToken);
 
 // Create and send the message
